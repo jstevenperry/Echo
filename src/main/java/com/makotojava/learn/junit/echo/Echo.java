@@ -27,11 +27,34 @@ package com.makotojava.learn.junit.echo;
  *
  */
 public class Echo {
+  /**
+   * The Contract: return the the specified String unchanged. Must return the same
+   * object that was passed in (not a copy).
+   * 
+   * @param stringToEcho
+   *          The string to echo.
+   * 
+   * @return - String - the same String object that was passed in, not a copy.
+   */
   public String echo(String stringToEcho) {
-    return stringToEcho;
+    // Will compile and run (albeit incorrectly, that is, this implemenation
+    /// does not fulfill the contract)
+    return null;
   }
 
-  public Integer echo(int intToEcho) {
-    return intToEcho;
+  /**
+   * The Contract: echo the specified Integer unchanged. Must return the same
+   * object that was passed in (not a copy).
+   * 
+   * @param intToEcho
+   *          The Integer to echo.
+   * 
+   * @return - Integer - the same Integer object that was passed in, not a copy.
+   */
+  public Integer echo(Integer intToEcho) {
+    // Will compile and run (albeit incorrectly, that is, this implemenation
+    /// does not fulfill the contract)
+    return null;
   }
+
 }
